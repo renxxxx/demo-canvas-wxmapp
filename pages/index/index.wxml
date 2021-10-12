@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box">
+    <image class="img1" src="{{ shareInfo.img1 }}"></image>
+    <image class="img2" src="{{ shareInfo.img2 }}"></image>
+  </view>
+  <view class="canvas-interact" wx:if="{{ isShowCanvas }}">
+    <canvas-box shareInfo="{{shareInfo}}"></canvas-box>、
+  </view>
+  <view class="save" bindtap="save">保存</view>
+</view>

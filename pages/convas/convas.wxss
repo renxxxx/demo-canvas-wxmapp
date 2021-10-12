@@ -1,0 +1,4 @@
+.canvas-interact {
+  width: 590rpx;
+  height: 1048rpx;
+}
